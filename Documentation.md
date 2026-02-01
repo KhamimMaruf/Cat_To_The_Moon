@@ -9,6 +9,8 @@ Terdapat **buffs** khusus berupa:
 Tujuan game: **mengumpulkan score sebanyak-banyaknya tanpa jatuh ke jurang**.
 
 ## 2. Tools
+Pada pembuatan game ini kita menggunakan 
+
     1. Unity 6 2D Engine sebagai mesin utama game
     2. Aseprite membuat asset game dalam bentuk pixel art 2D
     3. Remove.bg menghapus background dari png asset
@@ -18,6 +20,7 @@ Tujuan game: **mengumpulkan score sebanyak-banyaknya tanpa jatuh ke jurang**.
 
 ## Assets
 Terdapat berbagai macam asset yang digunakan pada game Cat To The Moon ini:
+
     1. Player (Cat): Untuk aset ini dibuat sendiri dengan menggunakan aseprite yang akan digunakan sebagai karakter utama yang dapat di gerakan oleh user
     2. Background Game: Menggunakan Gemini untuk membuat background utama agar lebih efisien
     3. Ground (tanah): Menggunakan free asset dari www.gameart2d.com
@@ -28,12 +31,14 @@ Terdapat berbagai macam asset yang digunakan pada game Cat To The Moon ini:
 
 ## Animation 
 Pada game Cat To The Moon ini ada 3 animasi pada player yaitu:
+
     1. Idle: posisi diam player yang nantinya player seolah bergerak. Disini kita menggunakan dreamina untuk membuatkan frames dari karakter saat idle.
     2. Walk: posisi berjalan, sama juga menggunakan dreamina untuk membuat framesnya.
     3. Jump: posisi player saat melompat. menggunakan dreamina untum membuat framesnya.
 
 ## BackEnd
 Pada sisi backend game ini, kami menggunakan C# yaitu:
+
     1. player.cs: digunakan untuk menentukan aksi apa saja yang bisa dilakukan player.
     2. MusicManager.cs: digunakan untuk menambahkan music pada game, sound effect dan back sound.
     3. CameraFollow.cs: digunakan agar main camera selalu mengikuti posisi dari player.
