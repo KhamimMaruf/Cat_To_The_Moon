@@ -55,5 +55,5 @@ Pada sisi backend game ini, kami menggunakan C# yaitu:
     4. Start Sign: BoxCollider2D, Tag respawn
     5. Checkpoint Sign: BoxCollider2D, Tag CheckPoint
     6. Background: C# script
-
     7. Main Camera: AudioListener, C# Script
+
