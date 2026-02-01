@@ -9,7 +9,6 @@ Terdapat **buffs** khusus berupa:
 Tujuan game: **mengumpulkan score sebanyak-banyaknya tanpa jatuh ke jurang**.
 
 ## 2. Tools
-Cat To The Moon menggunakan berbagai macam tools dalam proses pembuatannya:
     1. Unity 6 2D Engine sebagai mesin utama game
     2. Aseprite membuat asset game dalam bentuk pixel art 2D
     3. Remove.bg menghapus background dari png asset
@@ -51,4 +50,5 @@ Pada sisi backend game ini, kami menggunakan C# yaitu:
     4. Start Sign: BoxCollider2D, Tag respawn
     5. Checkpoint Sign: BoxCollider2D, Tag CheckPoint
     6. Background: C# script
+
     7. Main Camera: AudioListener, C# Script
