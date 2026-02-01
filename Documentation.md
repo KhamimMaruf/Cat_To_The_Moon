@@ -46,7 +46,7 @@ Pada sisi backend game ini, kami menggunakan C# yaitu:
     5. CameraTransform.cs: digunakan untuk menyesuaikan effect dari background dan camera pada tampilan.
     6. FlyingFish.cs: digunakan untuk menambahkan buff jump ke player agar lompatannya lebih tinggi.
     7. GoldenFish.cs: digunakan untuk menambahkan buff kecepatan berjalan player.
-    8. Finish.cs: digunakan untuk papan finish agar menampilkan panel selamat.
+    8. Finish.cs: digunakan untuk papan finish player
 
 ## Add Component
     1. Player: RigBody2D, ColliderBox2D, AudioSource, C# script, Tag Player
@@ -56,4 +56,5 @@ Pada sisi backend game ini, kami menggunakan C# yaitu:
     5. Checkpoint Sign: BoxCollider2D, Tag CheckPoint
     6. Background: C# script
     7. Main Camera: AudioListener, C# Script
+
 
